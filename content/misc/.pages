@@ -1,0 +1,5 @@
+nav:
+    - Misc: index.md
+    - CrowdStrike Falcon, Slack Notifications: csfalcon-slackalert.md
+    - CloudFlare Automated IP Block: cf-automated-ip-block.md
+    - Automated Amazon WorkSpaces Provisioning: provision-aws-workspaces.md

@@ -1,3 +1,4 @@
-.nav
-	- AWS: AWS 
-	- Blog: Blog
+nav:
+    - AWS: aws 
+    - Misc: misc
+    - Blog: blog

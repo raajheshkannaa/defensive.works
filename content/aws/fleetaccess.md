@@ -3,7 +3,7 @@ IAM Roles which will help in maintaining an AWS Multi-Account strategy at scale.
 
 This can be achieved with [AWS Control Tower](https://aws.amazon.com/controltower), but what if I don't want to use Control Tower and spin up something of my own, or even further use this setup alongside Control Tower, for the role(s) used by CT, has `AdministratorAccess` privileges and that I want to use strictly constrained set of permissions for my roles in a multi-account setup. Enter `FleetAccess`.
 
-![Hub-Spoke IAM Role Structure](images/Hub-Spoke_IAM_Role_Structure.png)
+![Hub-Spoke IAM Role Structure](../images/Hub-Spoke_IAM_Role_Structure.png)
 
 ## Pre-requisites
 * The CDK pipeline/application itself is to be deployed in the Organization or Billing account, thus access is required for this account.
@@ -14,7 +14,7 @@ The infrastructure for this project is built with Cloud Development Kit or CDK. 
 > npm i -g aws-cdk 
 
 ## Components
-![Cross Account CDK Pipeline to deliver the Hub-Spoke IAM Roles](images/FleetAccess.png)
+![Cross Account CDK Pipeline to deliver the Hub-Spoke IAM Roles](../images/FleetAccess.png)
 ### Stacks
 We use CDK Pipelines to deploy the three stacks,
 * `hub_role_stack` is deployed in the Security or Automation account.
@@ -38,7 +38,7 @@ We use CDK Pipelines to deploy the three stacks,
 * So, now gather the codecommit repository details which was created and `git push` the cdk app to the repository which has the cloudformation stacks to be deployed by the pipeline.
 * Once code is pushed, pipeline picks it up automatically and begins deployment, its an amazing feeling to look at this in action, with so minimal effort.
 
-![cdk ls - list stacks, which will be deployed in all accounts](images/cdk_list_stacks.png)
+![cdk ls - list stacks, which will be deployed in all accounts](../images/cdk_list_stacks.png)
 
 ## References
 * If you want to build over this to futher tweak and customize the permissions of these roles, you can use [CDK IAM Floyd](https://awscdk.io/packages/cdk-iam-floyd@0.71.0#/)

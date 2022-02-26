@@ -42,7 +42,7 @@ markdown_extensions:
 
 plugins:
   - search
-#  - awesome-pages # non-standard
+  - awesome-pages # non-standard
 #  - minify:
 #      minify_html: true
 #      minify_js: true
@@ -63,20 +63,3 @@ extra:
       link: https://www.linkedin.com/in/raajhesh-kannaa-chidambaram/
     - icon: fontawesome/brands/github
       link: https://github.com/raajheshkannaa
-
-nav:
-    - index.md
-    - AWS:
-      - AWS: aws/index.md
-      - Bootstrap: aws/cdk-bootstrap.md
-      - Laying the Foundations: aws/fleetaccess.md
-      - Mapping the AWS Attack Surface: aws/asm.md
-      - CloudTrail Lake Detections: aws/cloudtrail-lake-detections.md
-      - Security Group Change & Response: aws/green-stone.md 
-    - Random:
-      - Random: random/index.md
-      - CrowdStrike Falcon, Slack Notifications: random/csfalcon_slackalert.md
-      - CloudFlare Automated IP Block: random/cf-automated-ip-block.md
-      - Automated Amazon WorkSpaces Provisioning: random/provision-aws-workspaces.md
-    - Blog:
-      - Blog: blog/index.md
