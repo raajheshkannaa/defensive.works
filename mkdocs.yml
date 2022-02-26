@@ -1,0 +1,82 @@
+site_name: Defensive Works
+site_description: Multi layered defense stragies for everyone
+site_url: https://defensive.works
+
+docs_dir: content
+
+theme:
+  name: material
+  palette:
+    - scheme: slate 
+  logo: images/logo.png
+  favicon: images/logo.png
+  custom_dir: overrides
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    # - navigation.instant  Add this at a later date
+    - navigation.tabs
+    - navigation.indexes
+  palette:
+    - scheme: slate
+      primary: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to Dark Mode
+    - scheme: default
+      primary: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to Light Mode
+
+markdown_extensions:
+  - meta
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+#  - awesome-pages # non-standard
+#  - minify:
+#      minify_html: true
+#      minify_js: true
+#      minify_css: true
+
+#extra_javascript:
+#  - javascripts/matomo.min.js
+
+repo_name: Attack Surface Management
+repo_url: https://github.com/raajheshkannaa/attack-surface-management
+edit_uri: edit/main/content/
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/raajheshkannaa
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/raajhesh-kannaa-chidambaram/
+    - icon: fontawesome/brands/github
+      link: https://github.com/raajheshkannaa
+
+nav:
+    - index.md
+    - AWS:
+      - AWS: aws/index.md
+      - Bootstrap: aws/cdk-bootstrap.md
+      - Laying the Foundations: aws/fleetaccess.md
+      - Mapping the AWS Attack Surface: aws/asm.md
+      - CloudTrail Lake Detections: aws/cloudtrail-lake-detections.md
+      - Security Group Change & Response: aws/green-stone.md 
+    - Random:
+      - Random: random/index.md
+      - CrowdStrike Falcon, Slack Notifications: random/csfalcon_slackalert.md
+      - CloudFlare Automated IP Block: random/cf-automated-ip-block.md
+      - Automated Amazon WorkSpaces Provisioning: random/provision-aws-workspaces.md
+    - Blog:
+      - Blog: blog/index.md
