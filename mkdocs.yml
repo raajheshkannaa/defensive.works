@@ -52,8 +52,8 @@ plugins:
 #extra_javascript:
 #  - javascripts/matomo.min.js
 
-repo_name: Attack Surface Management
-repo_url: https://github.com/raajheshkannaa/attack-surface-management
+repo_name: Defensive Works 
+repo_url: https://github.com/raajheshkannaa/defensive.works
 edit_uri: edit/main/content/
 
 extra:
