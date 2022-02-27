@@ -7,7 +7,7 @@ docs_dir: content
 theme:
   name: material
   palette:
-    - scheme: slate 
+    - scheme: default 
   logo: images/logo.png
   favicon: images/logo.png
   custom_dir: overrides
@@ -19,12 +19,12 @@ theme:
     - navigation.indexes
   palette:
     - scheme: slate
-      primary: red
+      primary: blue grey 
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to Dark Mode
     - scheme: default
-      primary: red
+      primary: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to Light Mode
