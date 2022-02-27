@@ -1,6 +1,7 @@
 site_name: Defensive Works
 site_description: Multi layered defense stragies for everyone
 site_url: https://defensive.works
+site_author: Raajhesh Kannaa Chidambaram
 
 docs_dir: content
 
@@ -21,12 +22,12 @@ theme:
     - scheme: slate
       primary: blue grey 
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/lightbulb-outline
         name: Switch to Dark Mode
     - scheme: default
       primary: indigo
       toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb
         name: Switch to Light Mode
 
 markdown_extensions:
