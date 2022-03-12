@@ -74,5 +74,6 @@ SIGNINGSECRET = <THE SECRET FROM SLACK APP USED FOR VERIFICATION OF REQUESTS COM
 * Security Group Rule Changes are allowed by default, to make sure Security doesn't add friction to the operations with rest of the organization. Meaning changes are reverted only when explicitly denied by user interaction through slack channel interactive `Deny` button.
 * Because this is a new service/feature from AWS, Lambda's boto3 library is not updated with the ability to invoke these API calls, so I've packaged a recent version of boto3 part of the lambda function. This could have been a Lambda layer, but hey, doesn't matter after couple weeks or a month.
 
-
+### If you liked this, then you can buy me my first coffee ever, THANKS IN ADVANCE
+<a href="https://www.buymeacoffee.com/raajheshkannaa" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 

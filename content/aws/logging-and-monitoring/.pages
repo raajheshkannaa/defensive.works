@@ -1,0 +1,3 @@
+nav:
+    - Mapping the AWS Attack Surface: asm.md
+    - CloudTrail Lake Detections: cloudtrail-lake-detections.md

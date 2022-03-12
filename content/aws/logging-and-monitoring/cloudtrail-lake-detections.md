@@ -15,3 +15,6 @@ Previously to do this at scale meant, enabling CloudTrail in all accounts and re
 - security_configuration_change
 - codebuild_made_public
 ```
+
+### If you liked this, then you can buy me my first coffee ever, THANKS IN ADVANCE
+<a href="https://www.buymeacoffee.com/raajheshkannaa" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>

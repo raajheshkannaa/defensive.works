@@ -1,11 +1,6 @@
 nav:
     - AWS: index.md
-    - General: 
-      - CDK Bootstrap: general/cdk-bootstrap.md
-    - Identity & Access Management:
-      - AWS Cross Account Access at Scale: identity-access-management/fleetaccess.md
-    - Logging & Monitoring:
-      - Mapping the AWS Attack Surface: logging-and-monitoring/asm.md
-      - CloudTrail Lake Detections: logging-and-monitoring/cloudtrail-lake-detections.md
-    - Incident Response:    
-      - Security Group Change & Response: incident-response/green-stone.md 
+    - General: general
+    - Identity & Access Management: identity-access-management
+    - Logging & Monitoring: logging-and-monitoring
+    - Incident Response: incident-response    
