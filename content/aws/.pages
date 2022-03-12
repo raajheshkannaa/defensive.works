@@ -1,8 +1,11 @@
 nav:
     - AWS: index.md
-    - Laying the Foundations: 
-      - AWS Cross Account Access at Scale: fleetaccess.md
+    - General: 
       - CDK Bootstrap: cdk-bootstrap.md
-    - Mapping the AWS Attack Surface: asm.md
-    - CloudTrail Lake Detections: cloudtrail-lake-detections.md
-    - Security Group Change & Response: green-stone.md 
+    - Identity & Access Management:
+      - AWS Cross Account Access at Scale: fleetaccess.md
+    - Logging & Monitoring:
+      - Mapping the AWS Attack Surface: asm.md
+      - CloudTrail Lake Detections: cloudtrail-lake-detections.md
+    - Incident Response:    
+      - Security Group Change & Response: green-stone.md 

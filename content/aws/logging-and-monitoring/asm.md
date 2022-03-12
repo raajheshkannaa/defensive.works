@@ -27,7 +27,8 @@ The infrastructure for this project is built with Cloud Development Kit or CDK. 
 	* NAT Gateway in the public subnet.
 	* Lambda functions in the private subnet routing egress traffic through the NAT Gateway. There are no security groups for ingress, as traffic is not expected.
 
-![CDK Pipelines to deploy the infrastructure for AWS Attack Surface Management](../images/AWS_Attack_Surface_Management.png)
+![CDK Pipelines to deploy the infrastructure for AWS Attack Surface Management](../../images/AWS_Attack_Surface_Management.png)
+      - AWS Cross Account Access at Scale: fleetaccess.md
 
 ## Usage
 > git clone https://github.com/raajheshkannaa/attack-surface-management

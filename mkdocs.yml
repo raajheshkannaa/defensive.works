@@ -1,5 +1,5 @@
 site_name: Defensive Works
-site_description: Multi layered defense stragies for everyone
+site_description: Multi layered defense strategies for everyone
 site_url: https://defensive.works
 site_author: Raajhesh Kannaa Chidambaram
 
@@ -52,9 +52,9 @@ plugins:
 #extra_javascript:
 #  - javascripts/matomo.min.js
 
-repo_name: Defensive Works 
-repo_url: https://github.com/raajheshkannaa/defensive.works
-edit_uri: edit/main/content/
+#repo_name: Defensive Works 
+#repo_url: https://github.com/raajheshkannaa/defensive.works
+#edit_uri: edit/main/content/
 
 extra:
   social:

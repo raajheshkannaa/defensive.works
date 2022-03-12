@@ -8,11 +8,11 @@ The infrastructure needed for this project is deployed as a CDK Application, whi
 
 ***NOTE*** Security Group Rule Changes are allowed by default. Meaning changes are reverted only when explicitly denied by user interaction through slack channel interactive `Deny` button.
 
-![How it works on the high level](../images/SecurityGroupRevertChatOps.gif)
+![How it works on the high level](../../images/SecurityGroupRevertChatOps.gif)
 
 ## Prerequisites
 * Appropriate IAM Roles and trust relationships within the AWS Organization and member accounts, [FleetAccess](https://github.com/raajheshkannaa/fleet-access).
-![An ideal setup would be like this](../images/SecurityGroupRevertIAMRoleStructure.png)
+![An ideal setup would be like this](../../images/SecurityGroupRevertIAMRoleStructure.png)
 
 * CloudTrail Lake setup - [Tutorial to enable cloudtrail lake](https://aws.amazon.com/blogs/mt/announcing-aws-cloudtrail-lake-a-managed-audit-and-security-lake/)
 * A role in the Organization account with the ability to invoke `start_query` and `get_query_results` and trusted by the `hub-001` role in the `Security account`, where the lambda functions run from.
@@ -30,7 +30,7 @@ The infrastructure needed for this project is deployed as a CDK Application, whi
 
 
 ## Workflow
-![Security Group Change Detection & Response](../images/SecurityGroupRevertChatOps.drawio.png)
+![Security Group Change Detection & Response](../../images/SecurityGroupRevertChatOps.drawio.png)
 
 * CloudWatch Event Time based rule will trigger lambda `revertsg-1`, every 10 mins.
 * Lambda function `revertsg-1` will assume role `cloudtrail-lake-read-role` in the organization account and run query to fetch events with event name `AuthorizeSecurityGroupIngress` in the last 20 mins. There is an over lap so that events which were 
