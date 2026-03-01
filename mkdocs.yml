@@ -1,5 +1,5 @@
 site_name: Defensive Works
-site_description: Multi layered defense strategies for everyone
+site_description: Security automation & detection engineering at scale
 site_url: https://defensive.works
 site_author: Raajhesh Kannaa Chidambaram
 
@@ -38,8 +38,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
