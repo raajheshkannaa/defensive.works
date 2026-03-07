@@ -194,4 +194,4 @@ Its honestly satisfying watching these detections fire across hundreds of accoun
 
 ---
 
-*Raajhesh Kannaa Chidambaram — Cloud Security Engineer. I build security automation at scale. More at [defensive.works](https://defensive.works) and [github.com/raajheshkannaa](https://github.com/raajheshkannaa).*
+*Raajhesh Kannaa Chidambaram — Security Engineer. I build security automation at scale. More at [defensive.works](https://defensive.works) and [github.com/raajheshkannaa](https://github.com/raajheshkannaa).*

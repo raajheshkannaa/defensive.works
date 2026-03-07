@@ -2,22 +2,26 @@
 
 Security automation & detection engineering at scale. Built from real production experience across 300+ AWS accounts.
 
-I'm Raajhesh Kannaa Chidambaram — Cloud Security Engineer and [OSCP](https://www.offensive-security.com/pwk-oscp/). I've spent 13+ years building security infrastructure at progressively larger organizations, from racking servers in data centers to securing cloud platforms processing billions in transactions.
+I'm Raajhesh Kannaa Chidambaram — Security Engineer and [OSCP](https://www.offensive-security.com/pwk-oscp/). I've spent 15 years building security infrastructure at progressively larger organizations, from racking servers in data centers to securing cloud platforms processing billions in transactions.
 
 This site is where I document what I build and share what I've learned. The [AWS docs](aws/index.md) cover security automation tools I've open-sourced. The [blog](blog/index.md) is where I write about detection engineering, enforcement engineering, and building security at scale.
 
 Everything here comes from doing the work, not theorizing about it.
 
+## Writing
+
+**[Assumed Role](https://github.com/raajheshkannaa/assumed-role)** — A cloud security thriller in six chapters. A solo security engineer. A stolen credential. 72 hours of real AWS attack & defense techniques wrapped in fiction. Every CloudTrail event, SQL query & IAM policy is functional. **[Read the PDF](https://github.com/raajheshkannaa/assumed-role/releases/tag/v1.0)**
+
 ## Open Source Projects
 
 | Project | What It Does |
 |---|---|
-| [CloudTrail Lake Detections](https://github.com/raajheshkannaa/aws-cloudtrail-lake-detections) | Threat detection rules built on CloudTrail Lake SQL queries |
-| [Green Stone](https://github.com/raajheshkannaa/green-stone) | Security Group change detection & automated response via Slack |
-| [Attack Surface Management](https://github.com/raajheshkannaa/attack-surface-management) | External-facing AWS service discovery & Nmap scanning at scale |
-| [Fleet Access](https://github.com/raajheshkannaa/fleet-access) | Hub-spoke IAM role structure for cross-account automation |
-| [CDK Booty Strappin](https://github.com/raajheshkannaa/cdk-booty-strappin) | Auto CDK bootstrap across all AWS Organization accounts |
-| [Auto Close AWS Accounts](https://github.com/raajheshkannaa/auto-close-aws-accounts) | Automated account closure for decommission OUs |
+| [Attack Surface Management](https://github.com/raajheshkannaa/attack-surface-management) | Continuous external attack surface discovery & vulnerability scanning across AWS Organizations |
+| [Fleet Access](https://github.com/raajheshkannaa/fleet-access) | Hub & Spoke IAM roles for multi-account security — self-mutating CDK pipeline, deploys to all org accounts |
+| [Identity Center Automation](https://github.com/raajheshkannaa/identity-center-automation) | GitOps for AWS IAM Identity Center — Permission Sets & Assignments as Code, PR-reviewed |
+| [CloudTrail Lake Detections](https://github.com/raajheshkannaa/aws-cloudtrail-lake-detections) | Detection engineering over CloudTrail Lake — reusable SQL-based detections |
+| [Green Stone](https://github.com/raajheshkannaa/green-stone) | Real-time Security Group change detection & one-click revert via Slack ChatOps |
+| [CDK Org Formation](https://github.com/raajheshkannaa/cdk-org-formation) | Manage AWS Organizations as Code |
 
 ## Find Me
 
