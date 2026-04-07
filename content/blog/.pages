@@ -1,3 +1,5 @@
 nav:
     - Blog: index.md
+    - "Replaying the TeamPCP Kill Chain: A Purple Team Lab Walkthrough": replaying-teampcp-kill-chain-purple-team-lab.md
+    - "Claude Code as a Red Team Copilot: Hacking HTB Fortress AWS": claude-code-red-team-copilot-htb-fortress.md
     - Detection Engineering with CloudTrail Lake at Scale: detection-engineering-cloudtrail-lake.md
