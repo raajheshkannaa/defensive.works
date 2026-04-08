@@ -17,16 +17,11 @@ theme:
     - navigation.tabs
     - navigation.indexes
   palette:
-    - scheme: default
-      primary: indigo
-      toggle:
-        icon: material/lightbulb
-        name: Switch to Light Mode
-    - scheme: slate
-      primary: blue grey 
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to Dark Mode
+    scheme: slate
+    primary: custom
+    accent: custom
+  font:
+    code: JetBrains Mono
 
 markdown_extensions:
   - meta
@@ -53,6 +48,9 @@ plugins:
 #repo_name: Defensive Works 
 #repo_url: https://github.com/raajheshkannaa/defensive.works
 #edit_uri: edit/main/content/
+
+extra_css:
+  - assets/terminal-theme.css
 
 extra:
   social:
