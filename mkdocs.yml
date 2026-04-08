@@ -18,8 +18,8 @@ theme:
     - navigation.indexes
   palette:
     scheme: slate
-    primary: custom
-    accent: custom
+    primary: black
+    accent: green
   font:
     code: JetBrains Mono
 
